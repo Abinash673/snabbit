@@ -74,16 +74,25 @@ import Hero from "./components/Hero";
 import Details from "./components/details";
 import HowItWorks from "./components/works";
 import ChoseSnabbit from "./components/chosesnapbit";
-
+import Review from "./components/review";
+import Spotlight from "./components/spotlight";
+import FAQSection from "./components/faq";
+import Footer from "./components/footer";
 
 const App = () => {
   return (
     <>
+
       <Navbar />
       <Hero />
       <Details />
       <HowItWorks />
       <ChoseSnabbit />
+      <Review />
+      <Spotlight />
+      <FAQSection />
+      <Footer />
+
     </>
   );
 };
